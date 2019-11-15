@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 28.858 sec <<< FAILURE! - in TestSuite
+createUserAPIPUTTest_WithSetter(com.qa.gorest.tests.UpdateUserAPITest)  Time elapsed: 1.056 sec  <<< FAILURE!
+io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+	at com.qa.gorest.tests.UpdateUserAPITest.createUserAPIPUTTest_WithSetter(UpdateUserAPITest.java:82)
+Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading '<', no possible valid JSON value or punctuation could be recognized.
+	at com.qa.gorest.tests.UpdateUserAPITest.createUserAPIPUTTest_WithSetter(UpdateUserAPITest.java:82)
+

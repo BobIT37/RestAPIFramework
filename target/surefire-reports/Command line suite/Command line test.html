@@ -1,0 +1,200 @@
+<html>
+<head>
+<title>TestNG:  Command line test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Command line test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>8/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Aug 29 09:02:34 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>5 seconds (5980 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.gorest.tests.UpdateUserAPITest.createUserAPIPUTTest_WithSetter()'><b>createUserAPIPUTTest_WithSetter</b><br>Test class: com.qa.gorest.tests.UpdateUserAPITest</td>
+<td><div><pre>io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1002)
+	at io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:967)
+	at io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:1047)
+	at io.restassured.path.json.JsonPath.get(JsonPath.java:202)
+	at io.restassured.path.json.JsonPath.getString(JsonPath.java:352)
+	at com.qa.gorest.tests.UpdateUserAPITest.createUserAPIPUTTest_WithSetter(UpdateUserAPITest.java:82)
+Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading &apos;&lt;&apos;, no possible valid JSON value or punctuation could be recognized.
+	at groovy.json.JsonLexer.nextToken(JsonLexer.java:86)
+	at groovy.json.JsonLexer$nextToken.call(Unknown Source)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parse(ConfigurableJsonSlurper.groovy:97)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper$parse.callCurrent(Unknown Source)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parseText(ConfigurableJsonSlurper.groovy:83)
+	at io.restassured.path.json.JsonPath$4$1.method(JsonPath.java:965)
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1000)
+	... 40 more
+... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace763236610", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace763236610'><pre>io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1002)
+	at io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:967)
+	at io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:1047)
+	at io.restassured.path.json.JsonPath.get(JsonPath.java:202)
+	at io.restassured.path.json.JsonPath.getString(JsonPath.java:352)
+	at com.qa.gorest.tests.UpdateUserAPITest.createUserAPIPUTTest_WithSetter(UpdateUserAPITest.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading &apos;&lt;&apos;, no possible valid JSON value or punctuation could be recognized.
+	at groovy.json.JsonLexer.nextToken(JsonLexer.java:86)
+	at groovy.json.JsonLexer$nextToken.call(Unknown Source)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parse(ConfigurableJsonSlurper.groovy:97)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper$parse.callCurrent(Unknown Source)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parseText(ConfigurableJsonSlurper.groovy:83)
+	at io.restassured.path.json.JsonPath$4$1.method(JsonPath.java:965)
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1000)
+	... 40 more
+</pre></div></td>
+<td>3</td>
+<td>com.qa.gorest.tests.UpdateUserAPITest@47f6473</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.gorest.tests.CreateUserAPITest.createUserAPIPOSTTest()'><b>createUserAPIPOSTTest</b><br>Test class: com.qa.gorest.tests.CreateUserAPITest<br>Parameters: Elvira, A, female, 04-Jan-1979, elvira1@gmail.com, +1-222-333-2323, http://www.google.com, test address, active</td>
+<td></td>
+<td>0</td>
+<td>com.qa.gorest.tests.CreateUserAPITest@15975490</td></tr>
+<tr>
+<td title='com.qa.gorest.tests.CreateUserAPITest.createUserAPIPOSTTest()'><b>createUserAPIPOSTTest</b><br>Test class: com.qa.gorest.tests.CreateUserAPITest<br>Parameters: Irina, Z, female, 01-Jan-1975, irina1@gmail.com, +1-222-333-2323, http://www.google.com, test address, active</td>
+<td></td>
+<td>0</td>
+<td>com.qa.gorest.tests.CreateUserAPITest@15975490</td></tr>
+<tr>
+<td title='com.qa.gorest.tests.CreateUserAPITest.createUserAPIPOSTTest()'><b>createUserAPIPOSTTest</b><br>Test class: com.qa.gorest.tests.CreateUserAPITest<br>Parameters: Naveen, K, male, 03-Jan-1965, naveen1@gmail.com, +1-222-333-2323, http://www.google.com, test address, active</td>
+<td></td>
+<td>0</td>
+<td>com.qa.gorest.tests.CreateUserAPITest@15975490</td></tr>
+<tr>
+<td title='com.qa.gorest.tests.CreateUserAPITest.createUserAPIPOSTTest()'><b>createUserAPIPOSTTest</b><br>Test class: com.qa.gorest.tests.CreateUserAPITest<br>Parameters: Varun, S, male, 02-Jan-1977, varun1@gmail.com, +1-222-333-2323, http://www.google.com, test address, active</td>
+<td></td>
+<td>0</td>
+<td>com.qa.gorest.tests.CreateUserAPITest@15975490</td></tr>
+<tr>
+<td title='com.qa.gorest.tests.CreateUserAPITest.createUserAPIPOSTTest()'><b>createUserAPIPOSTTest</b><br>Test class: com.qa.gorest.tests.CreateUserAPITest<br>Parameters: Guli, A, female, 05-Jan-1990, elvira1@gmail.com, +1-222-333-2323, http://www.google.com, test address, active</td>
+<td></td>
+<td>0</td>
+<td>com.qa.gorest.tests.CreateUserAPITest@15975490</td></tr>
+<tr>
+<td title='com.qa.gorest.tests.CreateUserAPITest.createUserAPIPOSTTest()'><b>createUserAPIPOSTTest</b><br>Test class: com.qa.gorest.tests.CreateUserAPITest<br>Parameters: Sarang, H, male, 01-Jan-1976, sarang1@gmail.com, +1-222-333-2323, http://www.google.com, test address, active</td>
+<td></td>
+<td>0</td>
+<td>com.qa.gorest.tests.CreateUserAPITest@15975490</td></tr>
+<tr>
+<td title='com.qa.gorest.tests.DeleteUserAPITest.deleteUserTest()'><b>deleteUserTest</b><br>Test class: com.qa.gorest.tests.DeleteUserAPITest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.gorest.tests.DeleteUserAPITest@1936f0f5</td></tr>
+<tr>
+<td title='com.qa.gorest.tests.GetUserAPITest.getUserListAPITest()'><b>getUserListAPITest</b><br>Test class: com.qa.gorest.tests.GetUserAPITest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.gorest.tests.GetUserAPITest@6b143ee9</td></tr>
+</table><p>
+</body>
+</html>

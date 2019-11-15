@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="28.858" tests="9" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.144-b01"/>
+    <property name="user.country.format" value="IN"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/NaveenKhunteta/Documents/workspace/Aug2019RestAssuredAPIFW"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/NaveenKhunteta/Documents/workspace/Aug2019RestAssuredAPIFW"/>
+    <property name="java.runtime.version" value="1.8.0_144-b01"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/fd/lw5s91x96f947xsp40gd_2180000gp/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.6.0/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/NaveenKhunteta/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.6.0/libexec/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.14.5"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.6.0/libexec/lib/jansi-native"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/NaveenKhunteta"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="NaveenKhunteta"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.6.0/libexec/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_144"/>
+    <property name="java.ext.dirs" value="/Users/NaveenKhunteta/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.6.0/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="createUserAPIPOSTTest" classname="com.qa.gorest.tests.CreateUserAPITest" time="1.244"/>
+  <testcase name="createUserAPIPOSTTest" classname="com.qa.gorest.tests.CreateUserAPITest" time="1.36"/>
+  <testcase name="createUserAPIPOSTTest" classname="com.qa.gorest.tests.CreateUserAPITest" time="1.47"/>
+  <testcase name="createUserAPIPOSTTest" classname="com.qa.gorest.tests.CreateUserAPITest" time="1.596"/>
+  <testcase name="createUserAPIPOSTTest" classname="com.qa.gorest.tests.CreateUserAPITest" time="1.699"/>
+  <testcase name="createUserAPIPOSTTest" classname="com.qa.gorest.tests.CreateUserAPITest" time="1.76"/>
+  <testcase name="getUserListAPITest" classname="com.qa.gorest.tests.GetUserAPITest" time="0.156"/>
+  <testcase name="deleteUserTest" classname="com.qa.gorest.tests.DeleteUserAPITest" time="0.274"/>
+  <testcase name="createUserAPIPUTTest_WithSetter" classname="com.qa.gorest.tests.UpdateUserAPITest" time="1.056">
+    <failure message="Failed to parse the JSON document" type="io.restassured.path.json.exception.JsonPathException"><![CDATA[io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+	at com.qa.gorest.tests.UpdateUserAPITest.createUserAPIPUTTest_WithSetter(UpdateUserAPITest.java:82)
+Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading '<', no possible valid JSON value or punctuation could be recognized.
+	at com.qa.gorest.tests.UpdateUserAPITest.createUserAPIPUTTest_WithSetter(UpdateUserAPITest.java:82)
+]]></failure>
+    <system-out><![CDATA[200
+{
+    "_meta": {
+        "success": false,
+        "code": 422,
+        "message": "Data validation failed. Please check the response body for detailed error messages.",
+        "rateLimit": {
+            "limit": 60,
+            "remaining": 51,
+            "reset": 9
+        }
+    },
+    "result": [
+        {
+            "field": "email",
+            "message": "Email \"gulanz3@gmail.com\" has already been taken."
+        }
+    ]
+}
+{
+    "_meta": {
+        "success": false,
+        "code": 422,
+        "message": "Data validation failed. Please check the response body for detailed error messages.",
+        "rateLimit": {
+            "limit": 60,
+            "remaining": 51,
+            "reset": 9
+        }
+    },
+    "result": [
+        {
+            "field": "email",
+            "message": "Email \"gulanz3@gmail.com\" has already been taken."
+        }
+    ]
+}
+new user id is: [null]
+=====
+Request method:	PUT
+Request URI:	https://gorest.co.in/public-api/users/%5Bnull%5D
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer _FWTKt73f0EeVrfWj7d3sKoLMnw_9dqVcs0k
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "first_name": "Gulnaz",
+    "last_name": "Musa",
+    "gender": "female",
+    "dob": "29-03-1980",
+    "email": "gulanz3@gmail.com",
+    "phone": "+1-999-999-8777",
+    "website": "http://www.xyz.com",
+    "address": "test Address",
+    "status": "inactive"
+}
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
+    <meta name="csrf-param" content="_csrf"/>
+    <meta name="csrf-token" content="hd-PlVkENxvsv4RTs7vxAQI1XwGSDLzq9tJV4U0OjmPfheXEF0UAXJ3H8hXqg6Npb38dUsZhi4vFo2bSJDrKWw=="/>
+    <title>Not Found (#404) -  GO REST</title>
+    <link href="/css/font-awesome.min.css?v=1559586182" rel="stylesheet"/>
+    <link href="/css/site.mini.css" rel="stylesheet"/>
+  </head>
+  <body ng-app="goRestModule">
+    <div class="wrap">
+      <div class="nav-wrap">
+        <nav id="w0" class="navbar navbar-default navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#w0-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"/>
+                <span class="icon-bar"/>
+                <span class="icon-bar"/>
+              </button>
+              <a shape="rect" class="navbar-brand" href="/">
+                <i class="fa fa-exchange gutter-sm-right text-default fa-lg"/>
+Go Rest              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="w0-collapse">
+              <ul class="navbar-nav navbar-right nav" id="w1">
+                <li>
+                  <a shape="rect" href="/">
+                    <i class="fa fa-home gutter-sm-right"/>
+Home                  </a>
+                </li>
+                <li>
+                  <a shape="rect" href="/rest-console.html">
+                    <i class="fa fa-linux gutter-sm-right"/>
+Rest Console                  </a>
+                </li>
+                <li class="dropdown">
+                  <a shape="rect" class="dropdown-toggle" href="#" data-toggle="dropdown">
+                    <i class="fa fa-wrench gutter-sm-right"/>
+Tools                     <span class="caret"/>
+                  </a>
+                  <ul class="dropdown-menu" id="w2">
+                    <li>
+                      <a shape="rect" tabindex="-1" href="/cipher/base64-encode-decode.html">
+                        <i class="fa fa-exchange gutter-sm-right"/>
+Base64 Encode/Decode                      </a>
+                    </li>
+                    <li>
+                      <a shape="rect" tabindex="-1" href="/cipher/url-encode-decode.html">
+                        <i class="fa fa-exchange gutter-sm-right"/>
+Url Encode/Decode                      </a>
+                    </li>
+                    <li>
+                      <a shape="rect" tabindex="-1" href="/cipher/md5-encrypt.html">
+                        <i class="fa fa-exchange gutter-sm-right"/>
+MD5 Encrypt                      </a>
+                    </li>
+                    <li>
+                      <a shape="rect" tabindex="-1" href="/cipher/md5-decrypt.html">
+                        <i class="fa fa-exchange gutter-sm-right"/>
+MD5 Decrypt                      </a>
+                    </li>
+                    <li>
+                      <a shape="rect" tabindex="-1" href="/cipher/sha1-hash.html">
+                        <i class="fa fa-exchange gutter-sm-right"/>
+Sha1 Hash                      </a>
+                    </li>
+                    <li>
+                      <a shape="rect" tabindex="-1" href="/tools/gcode-translator.html">
+                        <i class="fa fa-code gutter-sm-right"/>
+G-Code Translator                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a shape="rect" href="/user/login.html">
+                    <i class="fa fa-lock gutter-sm-right"/>
+Login                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="container">
+        <div class="clearfix hidden-xs"/>
+        <div class="site-error">
+          <h1>Not Found (#404)</h1>
+          <div class="alert alert-danger">
+        Page not found.    </div>
+          <p>
+        The above error occurred while the Web server was processing your request.
+    </p>
+          <p>
+        Please contact us if you think this is a server error. Thank you.
+    </p>
+        </div>
+      </div>
+      <footer class="footer gutter-lg-top">
+        <div class="container">
+          <p class="pull-left gutter-md-right">© Go Rest 2019</p>
+          <a shape="rect" class="pull-right" href="/contact.html">Contact Us</a>
+          <a shape="rect" class="pull-right gutter-md-right" href="/privacy-policy.html">Privacy Policy</a>
+        </div>
+      </footer>
+    </div>
+    <script src="/assets/aacf7b95/jquery.min.js?v=1566188654"/>
+    <script src="/assets/fd3287fe/js/bootstrap.min.js?v=1566188654"/>
+    <script type="text/javascript">
+        !function(t,e,i,n){var s,o="autoHidingNavbar",h=t(e),a=t(i),r=null,u=null,l=70,f=0,d=null,m=h.height(),c=!0,g={disableAutohide:!1,showOnUpscroll:!0,showOnBottom:!0,hideOffset:"auto",animationDuration:200,navbarOffset:0};function p(e,i){this.element=t(e),this.settings=t.extend({},g,i),this._defaults=g,this._name=o,this.init()}function w(e){c&amp;&amp;(e.element.addClass("navbar-hidden").animate({top:-1*parseInt(e.element.css("height"),10)+e.settings.navbarOffset},{queue:!1,duration:e.settings.animationDuration}),t(".dropdown.open .dropdown-toggle",e.element).dropdown("toggle"),c=!1,e.element.trigger("hide.autoHidingNavbar"))}function O(t){c||(t.element.removeClass("navbar-hidden").animate({top:0},{queue:!1,duration:t.settings.animationDuration}),c=!0,t.element.trigger("show.autoHidingNavbar"))}function v(t){t.settings.disableAutohide||(f=(new Date).getTime(),function(t){var e=h.scrollTop(),i=e-d;if(d=e,i&lt;0){if(c)return;(t.settings.showOnUpscroll||e&lt;=s)&amp;&amp;O(t)}else if(i&gt;0){if(!c)return void(t.settings.showOnBottom&amp;&amp;e+m===a.height()&amp;&amp;O(t));e&gt;=s&amp;&amp;w(t)}}(t))}p.prototype={init:function(){var t;return this.elements={navbar:this.element},this.setDisableAutohide(this.settings.disableAutohide),this.setShowOnUpscroll(this.settings.showOnUpscroll),this.setShowOnBottom(this.settings.showOnBottom),this.setHideOffset(this.settings.hideOffset),this.setAnimationDuration(this.settings.animationDuration),s="auto"===this.settings.hideOffset?parseInt(this.element.css("height"),10):this.settings.hideOffset,t=this,a.on("scroll."+o,function(){(new Date).getTime()-f&gt;l?v(t):(clearTimeout(r),r=setTimeout(function(){v(t)},l))}),h.on("resize."+o,function(){clearTimeout(u),u=setTimeout(function(){m=h.height()},l)}),this.element},setDisableAutohide:function(t){return this.settings.disableAutohide=t,this.element},setShowOnUpscroll:function(t){return this.settings.showOnUpscroll=t,this.element},setShowOnBottom:function(t){return this.settings.showOnBottom=t,this.element},setHideOffset:function(t){return this.settings.hideOffset=t,this.element},setAnimationDuration:function(t){return this.settings.animationDuration=t,this.element},show:function(){return O(this),this.element},hide:function(){return w(this),this.element},destroy:function(){return a.off("."+o),h.off("."+o),O(this),t.data(this,"plugin_"+o,null),this.element}},t.fn[o]=function(e){var i,n=arguments;return void 0===e||"object"==typeof e?this.each(function(){t.data(this,"plugin_"+o)||t.data(this,"plugin_"+o,new p(this,e))}):"string"==typeof e&amp;&amp;"_"!==e[0]&amp;&amp;"init"!==e?(this.each(function(){var s=t.data(this,"plugin_"+o);s instanceof p&amp;&amp;"function"==typeof s[e]&amp;&amp;(i=s[e].apply(s,Array.prototype.slice.call(n,1)))}),void 0!==i?i:this):void 0}}(jQuery,window,document);
+        $(function(){$('input[type="text"]').length&amp;&amp;$('input[type="text"]').attr("autocomplete","off"),$('[data-toggle="tooltip"]').length&amp;&amp;$('[data-toggle="tooltip"]').tooltip({html:!0}),$('[data-toggle="popover"]').length&amp;&amp;$('[data-toggle="popover"]').popover({html:!0}),$(".alert-dismissible").length&amp;&amp;setTimeout(function(){$(".alert-dismissible").slideUp(function(){$(this).remove()})},5e3)});
+        jQuery("nav.navbar-fixed-top").autoHidingNavbar({animationDuration:250, showOnUpscroll:true, showOnBottom: false});
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-80146209-1', 'auto');ga('send', 'pageview');
+            </script>
+  </body>
+</html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
+    <meta name="csrf-param" content="_csrf"/>
+    <meta name="csrf-token" content="hd-PlVkENxvsv4RTs7vxAQI1XwGSDLzq9tJV4U0OjmPfheXEF0UAXJ3H8hXqg6Npb38dUsZhi4vFo2bSJDrKWw=="/>
+    <title>Not Found (#404) -  GO REST</title>
+    <link href="/css/font-awesome.min.css?v=1559586182" rel="stylesheet"/>
+    <link href="/css/site.mini.css" rel="stylesheet"/>
+  </head>
+  <body ng-app="goRestModule">
+    <div class="wrap">
+      <div class="nav-wrap">
+        <nav id="w0" class="navbar navbar-default navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#w0-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"/>
+                <span class="icon-bar"/>
+                <span class="icon-bar"/>
+              </button>
+              <a shape="rect" class="navbar-brand" href="/">
+                <i class="fa fa-exchange gutter-sm-right text-default fa-lg"/>
+Go Rest              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="w0-collapse">
+              <ul class="navbar-nav navbar-right nav" id="w1">
+                <li>
+                  <a shape="rect" href="/">
+                    <i class="fa fa-home gutter-sm-right"/>
+Home                  </a>
+                </li>
+                <li>
+                  <a shape="rect" href="/rest-console.html">
+                    <i class="fa fa-linux gutter-sm-right"/>
+Rest Console                  </a>
+                </li>
+                <li class="dropdown">
+                  <a shape="rect" class="dropdown-toggle" href="#" data-toggle="dropdown">
+                    <i class="fa fa-wrench gutter-sm-right"/>
+Tools                     <span class="caret"/>
+                  </a>
+                  <ul class="dropdown-menu" id="w2">
+                    <li>
+                      <a shape="rect" tabindex="-1" href="/cipher/base64-encode-decode.html">
+                        <i class="fa fa-exchange gutter-sm-right"/>
+Base64 Encode/Decode                      </a>
+                    </li>
+                    <li>
+                      <a shape="rect" tabindex="-1" href="/cipher/url-encode-decode.html">
+                        <i class="fa fa-exchange gutter-sm-right"/>
+Url Encode/Decode                      </a>
+                    </li>
+                    <li>
+                      <a shape="rect" tabindex="-1" href="/cipher/md5-encrypt.html">
+                        <i class="fa fa-exchange gutter-sm-right"/>
+MD5 Encrypt                      </a>
+                    </li>
+                    <li>
+                      <a shape="rect" tabindex="-1" href="/cipher/md5-decrypt.html">
+                        <i class="fa fa-exchange gutter-sm-right"/>
+MD5 Decrypt                      </a>
+                    </li>
+                    <li>
+                      <a shape="rect" tabindex="-1" href="/cipher/sha1-hash.html">
+                        <i class="fa fa-exchange gutter-sm-right"/>
+Sha1 Hash                      </a>
+                    </li>
+                    <li>
+                      <a shape="rect" tabindex="-1" href="/tools/gcode-translator.html">
+                        <i class="fa fa-code gutter-sm-right"/>
+G-Code Translator                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a shape="rect" href="/user/login.html">
+                    <i class="fa fa-lock gutter-sm-right"/>
+Login                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="container">
+        <div class="clearfix hidden-xs"/>
+        <div class="site-error">
+          <h1>Not Found (#404)</h1>
+          <div class="alert alert-danger">
+        Page not found.    </div>
+          <p>
+        The above error occurred while the Web server was processing your request.
+    </p>
+          <p>
+        Please contact us if you think this is a server error. Thank you.
+    </p>
+        </div>
+      </div>
+      <footer class="footer gutter-lg-top">
+        <div class="container">
+          <p class="pull-left gutter-md-right">© Go Rest 2019</p>
+          <a shape="rect" class="pull-right" href="/contact.html">Contact Us</a>
+          <a shape="rect" class="pull-right gutter-md-right" href="/privacy-policy.html">Privacy Policy</a>
+        </div>
+      </footer>
+    </div>
+    <script src="/assets/aacf7b95/jquery.min.js?v=1566188654"/>
+    <script src="/assets/fd3287fe/js/bootstrap.min.js?v=1566188654"/>
+    <script type="text/javascript">
+        !function(t,e,i,n){var s,o="autoHidingNavbar",h=t(e),a=t(i),r=null,u=null,l=70,f=0,d=null,m=h.height(),c=!0,g={disableAutohide:!1,showOnUpscroll:!0,showOnBottom:!0,hideOffset:"auto",animationDuration:200,navbarOffset:0};function p(e,i){this.element=t(e),this.settings=t.extend({},g,i),this._defaults=g,this._name=o,this.init()}function w(e){c&amp;&amp;(e.element.addClass("navbar-hidden").animate({top:-1*parseInt(e.element.css("height"),10)+e.settings.navbarOffset},{queue:!1,duration:e.settings.animationDuration}),t(".dropdown.open .dropdown-toggle",e.element).dropdown("toggle"),c=!1,e.element.trigger("hide.autoHidingNavbar"))}function O(t){c||(t.element.removeClass("navbar-hidden").animate({top:0},{queue:!1,duration:t.settings.animationDuration}),c=!0,t.element.trigger("show.autoHidingNavbar"))}function v(t){t.settings.disableAutohide||(f=(new Date).getTime(),function(t){var e=h.scrollTop(),i=e-d;if(d=e,i&lt;0){if(c)return;(t.settings.showOnUpscroll||e&lt;=s)&amp;&amp;O(t)}else if(i&gt;0){if(!c)return void(t.settings.showOnBottom&amp;&amp;e+m===a.height()&amp;&amp;O(t));e&gt;=s&amp;&amp;w(t)}}(t))}p.prototype={init:function(){var t;return this.elements={navbar:this.element},this.setDisableAutohide(this.settings.disableAutohide),this.setShowOnUpscroll(this.settings.showOnUpscroll),this.setShowOnBottom(this.settings.showOnBottom),this.setHideOffset(this.settings.hideOffset),this.setAnimationDuration(this.settings.animationDuration),s="auto"===this.settings.hideOffset?parseInt(this.element.css("height"),10):this.settings.hideOffset,t=this,a.on("scroll."+o,function(){(new Date).getTime()-f&gt;l?v(t):(clearTimeout(r),r=setTimeout(function(){v(t)},l))}),h.on("resize."+o,function(){clearTimeout(u),u=setTimeout(function(){m=h.height()},l)}),this.element},setDisableAutohide:function(t){return this.settings.disableAutohide=t,this.element},setShowOnUpscroll:function(t){return this.settings.showOnUpscroll=t,this.element},setShowOnBottom:function(t){return this.settings.showOnBottom=t,this.element},setHideOffset:function(t){return this.settings.hideOffset=t,this.element},setAnimationDuration:function(t){return this.settings.animationDuration=t,this.element},show:function(){return O(this),this.element},hide:function(){return w(this),this.element},destroy:function(){return a.off("."+o),h.off("."+o),O(this),t.data(this,"plugin_"+o,null),this.element}},t.fn[o]=function(e){var i,n=arguments;return void 0===e||"object"==typeof e?this.each(function(){t.data(this,"plugin_"+o)||t.data(this,"plugin_"+o,new p(this,e))}):"string"==typeof e&amp;&amp;"_"!==e[0]&amp;&amp;"init"!==e?(this.each(function(){var s=t.data(this,"plugin_"+o);s instanceof p&amp;&amp;"function"==typeof s[e]&amp;&amp;(i=s[e].apply(s,Array.prototype.slice.call(n,1)))}),void 0!==i?i:this):void 0}}(jQuery,window,document);
+        $(function(){$('input[type="text"]').length&amp;&amp;$('input[type="text"]').attr("autocomplete","off"),$('[data-toggle="tooltip"]').length&amp;&amp;$('[data-toggle="tooltip"]').tooltip({html:!0}),$('[data-toggle="popover"]').length&amp;&amp;$('[data-toggle="popover"]').popover({html:!0}),$(".alert-dismissible").length&amp;&amp;setTimeout(function(){$(".alert-dismissible").slideUp(function(){$(this).remove()})},5e3)});
+        jQuery("nav.navbar-fixed-top").autoHidingNavbar({animationDuration:250, showOnUpscroll:true, showOnBottom: false});
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-80146209-1', 'auto');ga('send', 'pageview');
+            </script>
+  </body>
+</html>
+]]></system-out>
+  </testcase>
+</testsuite>

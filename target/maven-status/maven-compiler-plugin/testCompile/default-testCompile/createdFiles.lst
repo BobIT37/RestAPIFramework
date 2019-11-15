@@ -1,0 +1,4 @@
+com/qa/gorest/tests/CreateUserAPITest.class
+com/qa/gorest/tests/DeleteUserAPITest.class
+com/qa/gorest/tests/UpdateUserAPITest.class
+com/qa/gorest/tests/GetUserAPITest.class
