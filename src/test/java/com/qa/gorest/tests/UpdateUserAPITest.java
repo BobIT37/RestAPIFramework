@@ -27,7 +27,7 @@ public class UpdateUserAPITest {
 
 		// create a user: using POST:
 		System.out.println("==Creating A new User===");
-		Users user = new Users("Ashu", "Singh", "male", "01-01-1990", "ashu3@gmail.com", "+1-994-294-0172",
+		Users user = new Users("Ashu", "Singhu", "male", "01-01-1990", "ashu33@gmail.com", "+1-994-294-0172",
 				"http://www.google.com", "test address", "active");
 
 		Response response = RestClient.doPost("JSON", baseURI, basePath, token, true, user);
