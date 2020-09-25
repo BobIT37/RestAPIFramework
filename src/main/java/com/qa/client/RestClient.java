@@ -14,7 +14,7 @@ import io.restassured.specification.RequestSpecification;
 
 /**
  * 
- * @author BobIT
+ * @author Ilhan
  *
  */
 public class RestClient {
